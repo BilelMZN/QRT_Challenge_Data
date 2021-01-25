@@ -12,7 +12,8 @@ Input datasets comprise 47 columns: the first ID column contains unique row iden
 • SUB_INDUSTRY: a lower level index of the industry,  
 • SECTOR: an index of the work sector,  
 • RET_1 to RET_20: the historical residual returns among the last 20 days (i.e., RET_1 is the return of the previous day and so on),  
-• VOLUME_1 to VOLUME_20: the historical relative volume traded among the last 20 days (i.e., VOLUME_1 is the relative volume of the previous day and so on),  
+• VOLUME_1 to VOLUME_20: the historical relative volume traded among the last 20 days (i.e., VOLUME_1 is the relative volume of the previous day and so on), 
+
 Output datasets are only composed of 2 columns:  
 
 • ID: the unique row identifier (corresponding to the input identifiers) and the binary target:  
