@@ -1,8 +1,6 @@
 # QRT_Challenge_Data
 This repository contains my work on the QRT Data Challenge which aims at predicting the return of a stock in the US market using historical data over a recent period of 20 days. 
 
-The one-day return of a stock $j$ on day tt
-
 3 datasets are provided as csv files, split between training inputs and outputs, and test inputs.
 
 Input datasets comprise 47 columns: the first ID column contains unique row identifiers while the other 46 descriptive features correspond to:
@@ -24,3 +22,6 @@ The solution files submitted by participants shall follow this output dataset fo
 
 418595 observations (i.e. lines) are available for the training datasets while 198429 observations are used for the test datasets.
 
+The metric considered is the accuracy of the predicted residual stock return sign.
+
+More details about the data and the csv files can be found on <html> https://challengedata.ens.fr/participants/challenges/23/.
